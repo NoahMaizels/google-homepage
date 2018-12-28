@@ -1,11 +1,78 @@
-#menu {
-    position: fixed;
-    background-color: aquamarine;
+#logo {
     display: block;
-    width: 80%;
-    height:30px;
+    margin-left: auto;
+    margin-right: auto; 
+    position: relative;
+    top: 33.1%;
+
 }
 
-.nav {
-    display: inline;
+* {
+    box-sizing: border-box;
+}
+
+
+
+.button {
+    border-style: solid;
+    position: relative;
+    display: inline-block;
+    height: 36px;
+    width: 142.578;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    text-align: center;
+    padding-top: 7px;
+    font-size: 13px;
+    font-stretch: 100%;
+    color: rgb(117,117,117);
+    font-family: arial, sans-serif;
+    background-color: rgb(242,242,242);
+    border-color: rgb(242,242,242);
+}
+
+#gsearch {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+#searchbox{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 38%;
+    height:44px;
+    width: 484px;
+    border-style: solid;
+}
+
+#search {
+    height: 34px;
+    display: block;
+    width: 200px;
+    width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: none;
+}
+
+#lucky {
+    height: 36px;
+    width: 142.578;
+    margin-bottom: 11px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+#center {
+    height: 58px;
+    text-align: center;
+    position: relative;
+    top: 43%;
+    width: 487px;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
