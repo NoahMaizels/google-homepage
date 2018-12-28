@@ -1,0 +1,11 @@
+#menu {
+    position: fixed;
+    background-color: aquamarine;
+    display: block;
+    width: 80%;
+    height:30px;
+}
+
+.nav {
+    display: inline;
+}
