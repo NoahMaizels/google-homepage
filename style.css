@@ -1,9 +1,9 @@
 #logo {
+    position: relative;
     display: block;
     margin-left: auto;
     margin-right: auto; 
     position: relative;
-    top: 33.1%;
 
 }
 
@@ -57,6 +57,7 @@ a {
     font-weight: 700;
     background-color: rgb(242,242,242);
     border-color: rgb(242,242,242);
+    top: 50px;
 
 }
 
@@ -103,4 +104,23 @@ a {
     margin-left: auto;
     margin-right: auto;
     
+}
+
+#bottom1, #bottom2 {
+    position: fixed;
+    width: 100vw;
+    display: block;
+    height: 40px;
+    background-color: rgba(0,0,0,.06);
+    color: rgba(0, 0, 0, 0.54);
+}
+
+#bottom1 {
+    bottom: 0;
+    border-top: 1px solid #e4e4e4;
+}
+
+#bottom2 {
+    bottom: 40;
+    border-top: 1px solid #e4e4e4;
 }
