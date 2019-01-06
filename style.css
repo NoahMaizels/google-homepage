@@ -71,8 +71,7 @@ a {
 }
 
 #searchbox{
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 2px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px
-    ;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 2px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -173,4 +172,27 @@ a {
     display: table-cell;
     padding-left: 27px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+#topmenu {
+    padding-right: 30px;
+    padding-top: 15px;
+}
+
+#topmenu li a{
+    color:rgba(0, 0, 0, 0.87);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+
+#topmenu li a:hover{
+    color:rgba(0, 0, 0, 0.54);
+    text-decoration: underline;
+}
+
+#googleapps {
+    position: relative;
+    top: 3px;
 }
